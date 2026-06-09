@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #920000;
+  --color-slate-text: #545d5a;
+  --color-slate-light: #59786e;
+  --color-bg-light: #ebf1f2;
+}
+
+@layer base {
+  * {
+    font-family: 'Inter', 'Pretendard', sans-serif !important;
+  }
+  
+  body {
+    background-color: #010a19;
+    color: #ffffff;
+  }
+}
+
+@layer utilities {
+  .inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .inter-semibold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
