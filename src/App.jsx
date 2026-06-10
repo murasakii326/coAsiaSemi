@@ -342,9 +342,12 @@ export default function App() {
         </div>
         <div className="-translate-x-1/2 [word-break:break-word] absolute content-stretch flex flex-col inter-regular font-normal gap-[24px] items-center leading-[normal] left-1/2 not-italic top-[91px] w-[1324px] pointer-events-none z-10">
           <motion.p initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.8 }} variants={fadeUpVariants} className="relative shrink-0 text-[45.378px] text-center text-white drop-shadow-md w-full">{`글로벌 R&D 네트워크`}</motion.p>
-          <p className="relative shrink-0 text-white drop-shadow-md text-[36px] w-full text-center">
+          <motion.p initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.8 }} variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut", delay: 0.2 } }
+          }} className="relative shrink-0 text-white drop-shadow-md text-[36px] w-full text-center">
             전 세계 주요 거점 운영을 통해 글로벌 고객사에게 최적의 현지 밀착형 지원을 제공합니다.
-          </p>
+          </motion.p>
         </div>
       </div>
       <div className="absolute content-stretch flex flex-col h-[1080px] items-start left-0 pl-[356px] pr-[358px] py-[290px] top-[3240px] w-[1921px]" data-node-id="567:144">
@@ -352,9 +355,9 @@ export default function App() {
           <img alt="" className="absolute h-full left-[-0.75%] max-w-none top-[0.02%] w-[100.73%]" src={imgFrame23} />
         </div>
         <div className="content-stretch flex flex-col gap-[106px] items-center relative shrink-0 w-[1207.397px]" data-node-id="567:143">
-          <p className="[word-break:break-word] inter-bold font-bold leading-[normal] not-italic relative shrink-0 text-[45.378px] text-center text-white w-full" data-node-id="552:4902">
+          <motion.p initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.8 }} variants={fadeUpVariants} className="[word-break:break-word] inter-bold font-bold leading-[normal] not-italic relative shrink-0 text-[45.378px] text-center text-white w-full" data-node-id="552:4902">
             글로벌 파트너십
-          </p>
+          </motion.p>
           <div className="content-stretch flex flex-col gap-[38px] items-center relative shrink-0 w-full" data-node-id="567:142">
             <div className="overflow-hidden w-full relative shrink-0" style={{ WebkitMaskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)' }} data-node-id="567:140">
               <motion.div animate={{ x: ["0%", "-50%"] }} transition={{ repeat: Infinity, ease: 'linear', duration: 25 }} className="flex items-center shrink-0 w-max">
@@ -425,9 +428,9 @@ export default function App() {
       </div>
       <div className="-translate-x-1/2 absolute bg-white content-stretch flex h-[2709px] items-start left-1/2 pb-[182px] pl-[150px] pr-[138px] pt-[109px] top-[4320px] w-[1920px]" data-node-id="567:195">
         <div className="content-stretch flex flex-col gap-[118px] items-center relative shrink-0 w-[1632px]" data-node-id="567:161">
-          <p className="[word-break:break-word] inter-regular font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[45.378px] text-black text-center w-[min-content]" data-node-id="552:4813">
+          <motion.p initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.8 }} variants={fadeUpVariants} className="[word-break:break-word] inter-regular font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[45.378px] text-black text-center w-[min-content]" data-node-id="552:4813">
             핵심 경쟁력
-          </p>
+          </motion.p>
           <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="567:160">
             <div className="col-1 content-stretch flex gap-[103px] items-center ml-0 mt-0 relative row-1" data-node-id="567:157">
               <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: false, amount: 0.3 }} transition={{ duration: 0.8, ease: 'easeOut' }} className="h-[561.157px] relative shrink-0 w-[810px]" data-node-id="552:4805" data-name="삼성_파운드리_협력_솔루션_202605131047 1">
@@ -582,7 +585,7 @@ export default function App() {
       </div>
       <div className="-translate-x-1/2 absolute bg-white content-stretch flex flex-col h-[619px] items-start left-1/2 pb-[53px] pt-[91px] px-[151px] top-[8111px] w-[1920px]" data-node-id="567:198">
         <div className="content-stretch flex flex-col gap-[43px] items-center relative shrink-0 w-[1618px]" data-node-id="567:173">
-          <p className="[word-break:break-word] inter-regular font-normal leading-[normal] not-italic relative shrink-0 text-[45.378px] text-black text-center w-full" data-node-id="552:4879">{`Latest Insights & News`}</p>
+          <motion.p initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.8 }} variants={fadeUpVariants} className="[word-break:break-word] inter-regular font-normal leading-[normal] not-italic relative shrink-0 text-[45.378px] text-black text-center w-full" data-node-id="552:4879">{`Latest Insights & News`}</motion.p>
           <div className="content-stretch flex gap-[25px] items-center relative shrink-0 w-full group/news" data-node-id="567:172">
             <div className="content-stretch flex flex-col gap-[19px] items-start relative shrink-0 flex-1 transition-all duration-700 ease-out group-hover/news:flex-[0.85] hover:!flex-[1.3] cursor-pointer group/item overflow-hidden isolate transform-gpu" data-node-id="567:169">
               <div className="h-[240px] relative shrink-0 w-full overflow-hidden isolate transform-gpu" data-node-id="552:4894" data-name="Futuristic_SoC_die_nanostructures_202605131000 1">
