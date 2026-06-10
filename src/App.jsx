@@ -7,9 +7,6 @@ const imgModularServerArchitectureDigi2026051719531 = "/assets/e1b3932157623c72e
 const imgMonolineLogoForIpService2026051719361 = "/assets/730841bc98b341b60f4523ee0562e92bb2d12079.png";
 const imgModernKoreanTechWorkspaceVis2026051719531 = "/assets/ca544b79a7f953a58ce7be3ca69112b3aa5d4f61.png";
 const imgFtLogo2 = "/assets/2085287d2076458d9cf127975adb79a49b370237.png";
-const imgImage24 = "/assets/cf07a0889e394f02d181991b772b0d4eb0cd2aba.png";
-const imgImage23 = "/assets/1b1a50a07fc4a9aa411bcd18e5e8544a5ab3b425.png";
-const imgImage22 = "/assets/698d023e95f88fd743caefb82f584b729586810a.png";
 const imgDigitalWorldMapRDNetwork2026051301162 = "/assets/8e553d19698d054f3d8cf326c5a7fc5a563dad5c.png";
 const imgFrame23 = "/assets/4eeb8f3473f5ad9b1d909135681a59d8482c3440.png";
 const imgLogoWhite2026051311521 = "/assets/2d918f504784b2cc9d3ac21db78eb1f886c08d4d.png";
@@ -29,7 +26,6 @@ const img2026051310451 = "/assets/6d2978343e2255f38189091ff992241ba077d49c.png";
 const img2026051311161 = "/assets/a3f22540250df8e16052843fa5c53af1cc7ba714.png";
 const imgRoundedCorner2026051719181Vectorized = "/assets/1a15d7e2e73768772b59fb497a7eba0ef668181f.svg";
 const imgLine12 = "/assets/3471588fb2ae328f73c562a2586fb484478467cc.svg";
-const imgGroup180 = "/assets/1c1d2487c2d0559247c3751340b07583b8da6efb.svg";
 const imgDigitalWorldMapRDNetwork2026051301161 = "/assets/5968dde33f884e0c5fd3cf822bea03b28429f763.svg";
 const imgVector = "/assets/553988a51853a6dd5de08e42d86185f93ad5d9c5.svg";
 const imgVector1 = "/assets/c4d2dc385e195858d48df6b1e61aac403f393a17.svg";
@@ -230,17 +226,31 @@ export default function App() {
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFtLogo2} />
               </div>
               <div className="content-stretch flex gap-[14px] items-center relative shrink-0" data-node-id="567:202">
-                <div className="h-[74px] relative shrink-0 w-[74px] cursor-pointer group/sns transition-colors duration-300" data-node-id="552:4852" data-name="image 24">
-                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full transition-all duration-300 group-hover/sns:scale-110 group-hover/sns:-translate-y-2 group-hover/sns:rotate-[-6deg] group-hover/sns:drop-shadow-2xl" src={imgImage24} />
+                <div className="flex items-center justify-center h-[74px] relative shrink-0 w-[74px] cursor-pointer group/sns" data-name="facebook">
+                  <svg className="w-full h-full text-[#2b2b2b] transition-all duration-300 group-hover/sns:text-[#47e0ff]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
+                  </svg>
                 </div>
-                <div className="h-[74px] relative shrink-0 w-[74px] cursor-pointer group/sns transition-colors duration-300" data-node-id="552:4851" data-name="image 23">
-                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full transition-all duration-300 group-hover/sns:scale-110 group-hover/sns:-translate-y-2 group-hover/sns:rotate-[-6deg] group-hover/sns:drop-shadow-2xl" src={imgImage23} />
+                <div className="flex items-center justify-center h-[74px] relative shrink-0 w-[74px] cursor-pointer group/sns" data-name="instagram">
+                  <svg className="w-full h-full text-[#2b2b2b] transition-all duration-300 group-hover/sns:text-[#47e0ff]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path fill="currentColor" d="M13.61 12.243a1.6 1.6 0 1 1-1.56-1.63a1.62 1.62 0 0 1 1.56 1.63" />
+                    <path fill="currentColor" d="M14.763 7.233H9.338a2.024 2.024 0 0 0-2.024 2.024v5.547a2.024 2.024 0 0 0 2.024 2.024h5.425a2.024 2.024 0 0 0 2.024-2.024V9.267a2.026 2.026 0 0 0-2.024-2.034m-2.713 7.723a2.703 2.703 0 1 1 2.642-2.703a2.67 2.67 0 0 1-2.642 2.703m2.936-5.405a.496.496 0 0 1-.496-.506a.506.506 0 1 1 1.012 0a.496.496 0 0 1-.557.506z" />
+                    <path fill="currentColor" d="M12.05 2a10 10 0 1 0-.1 20a10 10 0 0 0 .1-20m6.073 12.702a3.39 3.39 0 0 1-3.41 3.411H9.389a3.39 3.39 0 0 1-3.411-3.41V9.378a3.39 3.39 0 0 1 3.41-3.411h5.325a3.39 3.39 0 0 1 3.41 3.41z" />
+                  </svg>
                 </div>
-                <div className="h-[74px] relative shrink-0 w-[74px] cursor-pointer group/sns transition-colors duration-300" data-node-id="552:4850" data-name="image 22">
-                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full transition-all duration-300 group-hover/sns:scale-110 group-hover/sns:-translate-y-2 group-hover/sns:rotate-[-6deg] group-hover/sns:drop-shadow-2xl" src={imgImage22} />
+                <div className="flex items-center justify-center h-[74px] relative shrink-0 w-[74px] cursor-pointer group/sns" data-name="youtube">
+                  <svg className="w-[64px] h-[64px] text-[#2b2b2b] transition-all duration-300 group-hover/sns:text-[#47e0ff]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20">
+                    <path d="M0 0h20v20H0z" fill="none" />
+                    <path fill="currentColor" d="M11.603 9.833L9.357 8.785C9.161 8.694 9 8.796 9 9.013v1.974c0 .217.161.319.357.228l2.245-1.048c.197-.092.197-.242.001-.334M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4m0 13.5c-4.914 0-5-.443-5-3.9s.086-3.9 5-3.9s5 .443 5 3.9s-.086 3.9-5 3.9" />
+                  </svg>
                 </div>
-                <div className="h-[74px] relative shrink-0 w-[74px] cursor-pointer group/sns transition-colors duration-300" data-node-id="567:201">
-                  <img alt="" className="absolute block inset-0 max-w-none object-contain size-full transition-all duration-300 group-hover/sns:scale-110 group-hover/sns:-translate-y-2 group-hover/sns:rotate-[-6deg] group-hover/sns:drop-shadow-2xl" src={imgGroup180} />
+                <div className="flex items-center justify-center h-[74px] relative shrink-0 w-[74px] cursor-pointer group/sns" data-name="linkedin">
+                  <svg className="w-[64px] h-[64px] text-[#2b2b2b] transition-all duration-300 group-hover/sns:text-[#47e0ff]" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20">
+                    <path d="M0 0h20v20H0z" fill="none" />
+                    <path fill="currentColor" d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6s9.6-4.298 9.6-9.6S15.302.4 10 .4M7.65 13.979H5.706V7.723H7.65zm-.984-7.024c-.614 0-1.011-.435-1.011-.973c0-.549.409-.971 1.036-.971s1.011.422 1.023.971c0 .538-.396.973-1.048.973m8.084 7.024h-1.944v-3.467c0-.807-.282-1.355-.985-1.355c-.537 0-.856.371-.997.728c-.052.127-.065.307-.065.486v3.607H8.814v-4.26c0-.781-.025-1.434-.051-1.996h1.689l.089.869h.039c.256-.408.883-1.01 1.932-1.01c1.279 0 2.238.857 2.238 2.699z" />
+                  </svg>
                 </div>
               </div>
             </div>
